@@ -1,0 +1,87 @@
+.container{
+   
+    width: 50%;
+    border: 2px solid black;
+    margin: 100px 0px 0px 400px;
+    height: 500px;
+    border-radius: 10px;
+  
+  
+   
+}
+
+.header{
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+
+.header h1{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header hr{
+  
+     height: 2px;
+     background: #707070;
+     
+
+}
+
+
+.body{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.answers{
+    margin-top: 20px;
+}
+.answers ul{
+   list-style: none;
+   
+}
+
+
+
+.answers ul li {
+    padding: 10px 80px 10px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.last{
+    text-align: center;
+}
+
+.body .button{
+    padding: 10px 50px;
+    /* margin-left: 260px; */
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(82, 16, 143);
+    color: white;
+}
+
+.lastp p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container .correct{
+    background: rgb(141, 219, 141);
+    border-color: #053a2b;
+}
+
+.container .incorrect{
+    background: rgb(196, 88, 88);
+    border-color: #aa1515;
+}
+
