@@ -8,24 +8,37 @@
     
 }
 
-@media screen and (max-width:800px){
-    .container{
-        margin-left: 50px;
-    }
-}
-@media screen and (max-width:480px){
-    .container{
-       height: 500px;
-       margin-left: 10px;
-    }
-}
-@media screen and (max-width:340px){
-    .container{
-       height: 500px;
-       margin-top: -5px;
+/* Styles for large screens (desktops) */
+@media (min-width: 1025px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
+/* Styles for medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* Styles for small screens (phones) */
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Specific styles for the dimensions of Redmi Note series */
+@media (max-width: 1080px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
 
 .header{
     margin-left: 25px;
