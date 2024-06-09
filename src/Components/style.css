@@ -5,10 +5,20 @@
     margin: 100px 0px 0px 400px;
     height: 500px;
     border-radius: 10px;
-  
-  
-   
+    
 }
+
+@media screen and (max-width:800px){
+    .container{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:480px){
+    .container{
+       height: 600px;
+    }
+}
+
 
 .header{
     margin-left: 25px;
