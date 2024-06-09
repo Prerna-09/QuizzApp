@@ -15,7 +15,14 @@
 }
 @media screen and (max-width:480px){
     .container{
-       height: 600px;
+       height: 500px;
+       margin-left: 10px;
+    }
+}
+@media screen and (max-width:340px){
+    .container{
+       height: 500px;
+       margin-top: -5px;
     }
 }
 
